@@ -1,0 +1,66 @@
+
+*{
+    margin: 0px;
+}
+
+.cabecalho {
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: #1c3433;
+}
+
+.cabecalho ul{
+    justify-self: end;
+}
+
+.cabecalho img{
+    height: 50px;
+
+    margin: 0 0 0 150px;
+}
+
+.navegacao h1 {
+    font-size: 16px;
+    font-weight: 900;
+}
+
+.navegacao>ul {
+    margin-right: 100px;
+    list-style: none;
+    display: flex;
+}
+
+.navegacao>ul a {
+    color: white;
+    text-decoration: none;
+
+    margin-left: 150px;
+    padding: 3px;
+}
+
+.menu-principal>li a{
+    margin: 5px;
+    padding: 5px;
+
+    transition: 0.2s;
+    border-radius: 5px;
+}
+
+.ativo{
+    border: #00fff7;
+}
+
+
+.banner {
+    height: 100vh;
+}
+
+.banner>img{
+    height: 100%;
+    width: 100%;
+
+    object-fit: cover;
+}
